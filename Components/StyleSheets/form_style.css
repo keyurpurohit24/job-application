@@ -1,0 +1,43 @@
+.errText{
+  color: red;
+}
+
+form{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-container{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+
+.btn-div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+table {
+  text-align: center;
+  border-radius: 10PX;
+  border: none;
+  padding: 10px;
+  background-color: rgb(224, 227, 224);
+  font-weight: bold;
+}
+td, th{
+  border-radius: 5px;
+  border: 1px dashed black;
+  padding: 5px;
+}
+
+img{
+  border-radius: 50%;
+}
+.text-decor{
+  color: red;
+}

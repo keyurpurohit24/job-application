@@ -1,0 +1,101 @@
+body{
+  background-color: rgb(250, 248, 248);
+}
+a{
+  position: sticky;
+  top: 90%;
+  left: 90%;
+}
+.control-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.control-btn input{
+  margin: 20px;
+}
+input[type=submit],input[type=reset]{
+  height: 40px;
+  width: 2.5cm;
+  cursor: pointer;
+  border-radius: 10px;
+}
+input[type=submit]{
+  background-color: rgb(41, 93, 206);
+  color: white;
+}
+span{
+  color: red;
+  font-size: 14px;
+}
+
+.add-item {
+  display: flex;
+  justify-content: right;
+}
+.add-item div{
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  color:  white;
+  text-align: center;
+  height : 15px;
+  width: 15px;
+}
+.heading{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.h3{
+  color:  green;
+  font-size: 20px;
+}
+.display-div{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-btn{
+  margin-top: 5cm;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sub-btn{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.sub-btn input[type=button]{
+  background-color: burlywood;
+  height: 70px;
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 50%;
+}
+td{
+  padding: 5px;
+}
+fieldset{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(226, 214, 198);
+  border-radius: 10px;
+}
+legend{
+  font-weight: 600;
+}
+input[type="text"],input[type="number"]{
+  height: 0.5cm;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+textarea{
+  border-radius: 5px;
+  border: 1px solid black;
+}
